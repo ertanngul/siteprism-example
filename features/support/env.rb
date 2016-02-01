@@ -12,8 +12,6 @@ Dir[File.dirname(__FILE__) + '/../../page_objects/*.rb'].each { |file|
   require file
 }
 
-ENV['HEADLESS'] = 'true'
-
 if ENV['HEADLESS'] == 'true'
 
   Capybara.register_driver :poltergeist do |app|
