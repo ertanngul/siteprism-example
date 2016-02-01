@@ -5,7 +5,7 @@ This basic example is aimed at those who are interested in Cucumber & Capybara &
 
 I used Teknosa web site have excluded login details in this instance. I replaced the credentials in `login.feature` file with generic values. If you type your credentials in feature file, login scenario will be succeed. 
 
-You can also run scenarios in phantomjs by setting `HEADLESS` enviroment variable as `true`.
+You can also run scenarios in `phantomjs`, headless driver, by setting `HEADLESS` enviroment variable as `true`.
 
 Thanks,
 
