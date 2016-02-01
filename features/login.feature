@@ -1,12 +1,11 @@
 Feature: Login feature
-@InProgress
+
   Scenario: successful login
 
     Given I am on login page
     When I enter "email" and "password" as user, password
     Then I am successfully login as "username"
 
-@Fast @Slow
 Scenario: unsuccessful login with empty email and password
 
     Given I am on login page
